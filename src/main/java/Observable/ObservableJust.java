@@ -23,7 +23,7 @@ Difference between Observable.from() and Observable.just() —  Observable.j
 
 public class ObservableJust {
     public static void main(String [] args){
-        Observable<String> source = Observable.just("first", "second", "third");
+        Observable<String> source = Observable.just("first", "second", "third", "four");
         Observer<String> observer = new Observer<String>() {
             @Override
             public void onSubscribe(Disposable d) {
