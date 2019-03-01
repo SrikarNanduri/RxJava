@@ -57,5 +57,8 @@ public class ObservableCreate {
         };
 
         source.subscribe(observer);
+
+        // using lambda expressions
+        source.subscribe(System.out::println, Throwable::printStackTrace, () -> System.out.println("Operation completed"));
     }
 }

@@ -38,7 +38,7 @@ public class ObservableJust {
 
             @Override
             public void onError(Throwable e) {
-
+                e.printStackTrace();
             }
 
             @Override
@@ -48,6 +48,10 @@ public class ObservableJust {
         };
 
         source.subscribe(observer);
+
+        // Another method with lambda expressions, this is easy but this cannot be used when the code gets complex
+        // We can use it for simple operations like this.
+        source.subscribe(System.out::println, Throwable::printStackTrace,() -> System.out.println("Operation Completed"));
 
     }
 }
