@@ -18,7 +18,7 @@ The below code creates an Observable that emits a value.
 */
 public class ObservableDefer {
     public static void main(String [] args){
-        Observable<String> source = Observable.defer(() -> Observable.just("First", "Second"));
+        Observable<String> source = Observable.defer(() -> Observable.just("First", "Second", "Third"));
         source.subscribe(System.out::println, Throwable::printStackTrace, () -> System.out.println("operation complete"));
     }
 }
