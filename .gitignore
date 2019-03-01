@@ -67,10 +67,8 @@ fastlane/test_output
 fastlane/readme.md
 ### Java template
 # Compiled class file
-*.class
 
 # Log file
-*.log
 
 # BlueJ files
 *.ctxt
