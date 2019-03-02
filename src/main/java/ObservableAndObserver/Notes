@@ -1,0 +1,9 @@
+
+All Observables varies from one another in the number of emission it makes. The below table describes each Observable, its Observer and number of emissions.
+
+Observable              	Observer            	    # of emissions
+Observable	                Observer	                Multiple or None
+Single	                    SingleObserver	            One
+Maybe	                    MaybeObserver	            One or None
+Flowable	                Observer	                Multiple or None
+Completable	                CompletableObserver	        None

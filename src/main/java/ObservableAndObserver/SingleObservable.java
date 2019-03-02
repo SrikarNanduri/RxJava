@@ -17,6 +17,14 @@ A typical use case of Single observable would be when we make a network call in 
 Sample Implementation: The below code always emits a Single user object.
 We use a Single Observable and a Single Observer. The Single Observer always emits only once so there is no onNext().
 */
+
+
+/*
+*
+* Single & SingleObserver
+Single always emits only one value or throws an error. The same job can be done using Observable too with a single emission but Single always makes sure there is an emission. A use case of Single would be making a network call to get response as the response will be fetched at once.
+*/
+
 public class SingleObservable {
     private static int a =0, b =10;
     public static void main(String[] args){
