@@ -1,4 +1,4 @@
-package Observable;
+package ObservableAndObserver;
 
 import io.reactivex.Observable;
 
@@ -9,12 +9,12 @@ import io.reactivex.Observable;
 
 /*
 * Defer
-This operator does not create the Observable until the Observer subscribes.
-The only downside to defer() is that it creates a new Observable each time you get a new Observer.
+This operator does not create the ObservableAndObserver until the Observer subscribes.
+The only downside to defer() is that it creates a new ObservableAndObserver each time you get a new Observer.
 create() can use the same function for each subscriber, so it’s more efficient.
 
-Sample Implementation: The below sample creates an Observable using Observable.defer() method.
-The below code creates an Observable that emits a value.
+Sample Implementation: The below sample creates an ObservableAndObserver using ObservableAndObserver.defer() method.
+The below code creates an ObservableAndObserver that emits a value.
 
 So sometimes we have state changes then the observable once used it wont keep track of state changes
 

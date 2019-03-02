@@ -1,4 +1,4 @@
-package Observable;
+package ObservableAndObserver;
 
 import io.reactivex.Observable;
 

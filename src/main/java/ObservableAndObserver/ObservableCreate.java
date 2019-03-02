@@ -1,4 +1,4 @@
-package Observable;
+package ObservableAndObserver;
 
 import io.reactivex.Observable;
 import io.reactivex.Observer;
@@ -12,10 +12,10 @@ import io.reactivex.disposables.Disposable;
 // This is an example for observable.create()
 
     /*Create
-     This operator creates an Observable from scratch by calling observer methods programmatically.
+     This operator creates an ObservableAndObserver from scratch by calling observer methods programmatically.
      An emitter is provided through which we can call the respective interface methods when needed.
 
-     Sample Implementation: The below sample creates an Observable using Observable.create() method.
+     Sample Implementation: The below sample creates an ObservableAndObserver using ObservableAndObserver.create() method.
      The create() method does not have an option to pass values. So we have to create the list beforehand and perform operations on the list inside the onNext() method.
      The below code will print each item from the list.
      */
